@@ -5,6 +5,7 @@ const port = process.env.PORT || 8000;
 app.use(express.urlencoded());
 
 app.use(express.static('./js'));
+app.use(express.static('./assets'));
 
 
 // set up the view engine
